@@ -11,24 +11,55 @@
 </head>
 <body>
   <!-- Content goes here. -->
-  <div class="jumbotron">
-    <header class="container-fluid">
-          <img id="nlogo" src="/img/surf.svg" />
-    </header>
-    <h1 class="text-center">Paddle Pups</h1>
+  <header class="jumbotron">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img id="nlogo" alt="Brand" src="/img/surf.svg">
+          </a>
+        </div>
+        <div>
+          <p class="navbar-text">Paddle Pups Co. &amp; blog</p>
+          <p class="navbar-text navbar-right">
+            <a href="#">About</a>
+            <a href="#">Search</a>
+          </p>
+        </div>
 
-  </div>  <!-- Header -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <h1 class="text-center">paddlepups</h1>
+  </header>
   <main class="container-fluid">
     <div class="row">  <!--headline and social row -->
       <div class="col-md-7 col-md-offset-2 col-xs-12">
-        <h1>Dogs on surfboards</h1>
-        <img class="profilepic img-circle" src="/img/manypups.jpg" alt="profilepic" />
+        <h1 class="big-h">Dogs on</h1>
+        <h1 class="big-h">surfboards</h1>
+        <img class="profilepic img-circle" src="/img/pup1.jpg" alt="profilepic" />
         <p>
           <a href="#">Jon Krouse</a> on <a href="#">Thursday Sep. 29th 2016</a>
         </p>
       </div>
       <div class="col-md-3">
-        <img id="socialpic" src="/img/manypups.jpg" alt="pupsonaboard" class="img-circle img-responsive" />
+        <img id="socialpic" src="/img/pupprof.jpeg" alt="pupsonaboard" class="img-circle img-responsive center-block" />
+        <div class="row">
+          <div class="col-md-12">
+            <h4 class="text-center">Jon Krouse</h4>
+            <p class="text-center">
+              <a href="#">Twitter</a>
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">  <!-- paragraph and ad row -->
@@ -36,7 +67,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </div>
       <div class="col-md-3">
-        <img src="img/doglife.jpg" alt="dog life jacket"/>
+        <img src="img/doglife.jpg" alt="dog life jacket" class="center-block"/>
       </div>
     </div>
     <div class="row">  <!--bottom text and sidebar headline row -->
@@ -44,6 +75,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       </div>
       <div class="col-md-3">
+        <h4 class="text-center">Interesting Side</h4>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
       </div>
     </div>
@@ -54,16 +86,16 @@
     </div>
     <div class="row">  <!-- pictures linking to other posts here -->
       <div class="col-md-3">
-        <img class="img-responsive" src="/img/pup1.jpg" />
+        <img class="img-responsive" src="/img/pup.jpg" alt="coldpup" />
       </div>
       <div class="col-md-3">
-        <img class="img-responsive" src="/img/pup2.jpg" />
+        <img class="img-responsive" src="/img/pup2.jpg" alt="hunkereddown"/>
       </div>
       <div class="col-md-3">
-        <img class="img-responsive" src="/img/pup3.jpg" />
+        <img class="img-responsive" src="/img/pup3.jpg" alt="paddlinpup"/>
       </div>
       <div class="col-md-3">
-        <img class="img-responsive" src="/img/pup4.jpg" />
+        <img class="img-responsive" src="/img/pup4.jpg" alt="surfinpup"/>
       </div>
 
     </div>
@@ -71,7 +103,7 @@
   <footer class="row">
     <div class="col-md-6">
       <p class="text-center">
-        &copy JK 2016
+        &copy; JK 2016
       </p>
     </div>
     <div class="col-md-6">
