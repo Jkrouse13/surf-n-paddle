@@ -1,0 +1,9 @@
+div {
+  border: 1px solid red;
+  background: url(http://snugug.github.io/responsive-grids/images/symmetric-grid-bootstrap.png);
+  background-size: contain;
+  height: 500px;
+}
+main {
+  height: 50px;
+}
