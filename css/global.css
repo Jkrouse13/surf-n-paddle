@@ -4,6 +4,19 @@ div {
   background-size: contain;
   height: 500px;
 }
-main {
+
+/*main {
   height: 50px;
+}*/
+
+#nlogo {
+  transform: scale(.8);
+}
+
+.profilepic {
+  transform: scale(.1);
+}
+
+#socialpic {
+  transform: scale(.5);
 }
