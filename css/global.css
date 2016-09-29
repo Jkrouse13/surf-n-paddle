@@ -1,12 +1,7 @@
-div {
+/*div {
   border: 1px solid red;
   background: url(http://snugug.github.io/responsive-grids/images/symmetric-grid-bootstrap.png);
   background-size: contain;
-  /*height: 400px;*/
-}
-
-/*main {
-  height: 50px;
 }*/
 
 #nlogo {
@@ -14,14 +9,10 @@ div {
   display: inline-block;
 }
 
-/*.profilepic {
-  transform: scale(.5);
-  display: inline-block;*/
-}
 
-#socialpic {
+/*#socialpic {
   transform: scale(.5);
-}
+}*/
 
 .big-h{
   font-size: 65px;
