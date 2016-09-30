@@ -2,6 +2,7 @@
   border: 1px solid red;
   background: url(http://snugug.github.io/responsive-grids/images/symmetric-grid-bootstrap.png);
   background-size: contain;
+  height: 500px;
 }*/
 
 .jumbotron {
@@ -36,7 +37,30 @@ nav {
 #nlogo {
   transform: scale(.8);
   display: inline-block;
+  margin-top: -20px;
 }
+
+#sun {
+  font-size: 30px;
+}
+
+#blink {
+  margin-top: 10px;
+}
+
+#navbr{
+  margin-right: 20px;
+  font-weight: 400;
+}
+
+#ntext{
+  color: #003254;
+}
+
+#subline{
+  font-weight: 400;
+}
+
 
 .tint{
   background-color: #003254;
@@ -45,15 +69,50 @@ nav {
 .de-tint{
   opacity: 0.6;
   transform: scaleX(1.106);
+  transition: all .2s ease;
 }
 
 .de-tint:hover {
   opacity: 1;
 }
-/*#socialpic {
-  transform: scale(.5);
-}*/
+
+.socbutton {
+  background-color: #003254;
+  margin-left: 10px;
+  transition: all .3s ease;
+}
+
+.socbutton:hover {
+  background-color: rgb(73, 154, 138);
+}
+
+.sbutton{
+  margin-top: 10px;
+}
 
 .big-h{
   font-size: 65px;
+}
+
+.head{
+  color:  #003254;
+}
+
+.spacer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.relative{
+  position: relative;
+}
+
+.fixed{
+  position: absolute;;
+  bottom: 40px;
+  color: rgb(73, 154, 138);
+}
+
+#bud{
+  bottom: 10px;
 }

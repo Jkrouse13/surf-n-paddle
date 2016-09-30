@@ -28,17 +28,20 @@
           </a>
         </div>
         <div>
-          <p class="navbar-text">PADDLE PUPS CO. &amp; BLOG</p>
-          <p class="navbar-text navbar-right">
+          <p id="ntext" class="navbar-text">PADDLE PUPS CO. &amp; BLOG</p>
+          <p id="navbr" class="navbar-text navbar-right head">
             <a href="#">About</a>
-            <a href="#">Search</a>
+            <a href="#">
+              Search
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </a>
           </p>
         </div>
 
       </div><!-- /.container-fluid -->
     </nav>
-    <h1 class="text-center">PADDLE PUPS</h1>
-    <p class="text-center">
+    <h1 class="text-center head">PADDLE PUPS</h1>
+    <p id="subline" class="text-center head">
       A blog about dogs on surfboards
     </p>
   </header>
@@ -85,7 +88,7 @@
             <h2 id="quote">Totally tubular</h2>
           </div>
         </div>
-      <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+      <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
       </div>
       <div class="col-md-3">
         <img src="img/doglife.jpg" alt="dog life jacket" class="center-block"/>
@@ -100,20 +103,22 @@
       <div class="col-md-7 col-md-offset-2 col-xs-12">
         <br /><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <div class="row">
-          <div class="col-md-3 comment">
-            <i class="fa fa-comment icon" aria-hidden="true"></i>
-            <p>
+          <div class="col-md-3 comment socbutton">
+            <p class="text-center sbutton">
+              <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
               COMMENT
             </p>
           </div>
-          <div class="col-md-4">
-            <p>
+          <div class="col-md-4 socbutton">
+            <p class="text-center sbutton">
+              <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span>
               SAVE FOR LATER
             </p>
 
           </div>
-          <div class="col-md-3">
-            <p>
+          <div class="col-md-2 socbutton">
+            <p class="text-center sbutton">
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
               SHARE
             </p>
           </div>
@@ -126,29 +131,31 @@
       </div>
     </div>
     <div class="row">  <!-- most popular posts headline here -->
-      <div class="col-md-12">
+      <div class="col-md-12 spacer">
         <h1 class="text-center">MOST POPULAR POSTS</h1>
       </div>
     </div>
     <div class="row tint">  <!-- pictures linking to other posts here -->
       <div class="col-md-3">
-        <img class="img-responsive de-tint" src="/img/pup.jpg" alt="coldpup" />
+        <a href="#" class="relative"><img class="img-responsive de-tint" src="/img/pup.jpg" alt="coldpup" /></a>
         <div class="row">
           <div class="col-md-12">
-          <p>
-            Cold Dog
-          </p>
+            <h1 class="fixed">One Cold Pup</h1>
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <img class="img-responsive de-tint" src="/img/pup2.jpg" alt="hunkereddown"/>
+        <a href="#" class="relative"><img class="img-responsive de-tint" src="/img/pup2.jpg" alt="hunkereddown"/></a>
+        <h1 class="fixed">Hunkered Down</h1>
       </div>
       <div class="col-md-3">
-        <img class="img-responsive de-tint" src="/img/pup3.jpg" alt="paddlinpup"/>
+        <a href="#" class="relative"><img class="img-responsive de-tint" src="/img/pup3.jpg" alt="paddlinpup"/></a>
+        <h1 class="fixed">Paddlin with</h1>
+        <h1 id="bud" class="fixed">a Bud</h1>
       </div>
       <div class="col-md-3">
-        <img class="img-responsive de-tint" src="/img/pup4.jpg" alt="surfinpup"/>
+        <a href="#" class="relative"><img class="img-responsive de-tint" src="/img/pup4.jpg" alt="surfinpup"/></a>
+        <h1 class="fixed">Top Dog</h1>
       </div>
 
     </div>
@@ -156,10 +163,11 @@
   <footer class="row">
     <div class="col-md-6">
       <p class="text-center">
+        <span id="sun" class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
         &copy; JK 2016
       </p>
     </div>
-    <div class="col-md-6">
+    <div id="blink" class="col-md-6">
       <a href="#">Dogs in clothes</a>
       <a href="#">Dogs with hats</a>
       <a href="#">Cats in clothes</a>
